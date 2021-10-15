@@ -1,10 +1,13 @@
 import React from 'react';
 
-const navTabs = (currentPage, handlePageChange) => {
+const Nav = ({currentPage, handlePageChange}) => {
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                <a href="#home" onClick={()=> handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                <a 
+                href="#home" 
+                onClick={()=> handlePageChange('Home')} 
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     Home
                 </a>
             </li>
@@ -27,4 +30,4 @@ const navTabs = (currentPage, handlePageChange) => {
     )
 }
 
-export default navTabs
+export default Nav
