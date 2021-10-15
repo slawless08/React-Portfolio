@@ -2,20 +2,26 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <section class = "contact" id = "contact">
+
+    <h1 class = "section__title section__title--contact">Use the form below to contact me. You can also click the links below.</h1>
+    
+    <form class="form">
+        <div class="form-group">
+            <label>Name: </label>
+            <input type="text" name="name"/>
+        </div>
+        <div class="form-group">
+            <label>Email: </label>
+            <input type="text" name="email"/>
+        </div>
+        <div class="form-group">
+            <label>Message: </label>
+            <textarea name="message"></textarea>
+        </div>
+        <input class="button" type="submit" value="Submit" name=""/>
+    </form>
+
+    </section>
   );
 }
