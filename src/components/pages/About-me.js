@@ -7,8 +7,13 @@ export default function AboutMe() {
         <p class = "seciton__subtitle section__subtitle--about-me">Developing Web Developer</p>
 
         <div class = "about-me__body">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi pariatur assumenda ratione aliquid tempore provident omnis adipisci tempora harum, a quis dolorum repellat aperiam autem amet accusantium esse tenetur voluptate.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa hic ad facere minima molestias quod, nemo vero, sequi tenetur reiciendis obcaecati porro neque laborum nihil voluptate nam beatae esse blanditiis?</p>
+            <p>Recent graduate of The Ohio State University Full Stack Web Development Bootcamp, I have gained skills using coding languages such as HTML, CSS, JavaScript, NodeJS, MySQL, MongoDB, React, and many other libraries associated with those. Currently seeking to apply these skills in a new career relative to my experience but one that will allow me to grow using the skills I have gained through my experience in the field of education: communication, collaboration, learning, critical thinking and problem solving.</p>
+            <p>Some of my goals include:</p>
+            <ul>
+              <li>Apply learned web development skills in a collaborative and professional setting</li>
+              <li>Develop a functioning website that would be able to host and promote podcast content</li>
+              <li>Dive into the world of data anayltics</li>
+            </ul>
         </div>
     </section>
   );

@@ -5,7 +5,7 @@ export default function MyWork() {
   return (
     <section class = "my-work" id = "my-work">
     <h2 class = "section__title section__title--my-work">My Work</h2>
-    <p class = "section__subtitle section__subtitle--my-work">Coming soon! Images will eventually be linked to my applications.</p>
+    <p class = "section__subtitle section__subtitle--my-work">Click on the images to view the Github respository page</p>
 
     <div class = "portfolio">
         <Projects
