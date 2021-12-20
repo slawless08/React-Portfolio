@@ -22,20 +22,22 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
+    --fs-small: 0.5rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
             0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
     
 }
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
+        --fs-small: 0.5rem;
     }
-}
+} */
 
 /* General styles */
 
@@ -128,7 +130,7 @@ h3 {font-size: var(--fs-h3);}
 }
 
 /* header */
-
+/* add logo if needed */
 .logo {
     max-width: 100px;
     z-index: 2;
@@ -141,7 +143,7 @@ header {
     background-color: var(--clr-dark);
     margin-bottom: 1em;
 }
-@media (min-width:700px) {
+/* @media (min-width:700px) { */
     
 
 nav {
@@ -165,7 +167,8 @@ nav ul {
 nav li {
     padding: 1em;
 }
-}
+
+/* } */
 .nav__link {
     text-decoration: none;
     color: var(--clr-light);
@@ -177,6 +180,47 @@ nav li {
     color: var(--clr-accent);
 }
 
+/* toggle button */
+.toggle-button{
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px){
+    .toggle-button{
+        display: flex;
+    }
+    .nav__link{
+        display: flex;
+        width: 100%;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav li{
+        text-align: center;
+    }
+    nav{
+        font-size: var(--fs-small);
+    }
+    .nav-item{
+        padding: 0.25rem;
+    }
+}
 
 /* About me */
 
@@ -266,13 +310,14 @@ nav li {
     flex-wrap: wrap;
 }
 
-.first-item {
+/* emphasize first project by placing it first and making it bigger than the rest */
+/* .first-item {
     flex-basis: 38rem;
-    /* align-self: flex-start; */
+    /* align-self: flex-start; */ /*
 }
 .first-item__img {
     width: 100%;
-}
+} */
 
 .item {
     flex-basis: 20rem;
@@ -291,6 +336,15 @@ nav li {
     transform: scale(1.1);
     opacity: .9;
 }
+/* my-work image sizes */
+/* .img-container{
+    width: 300px;
+    height: 200px;
+}
+.img-container img{
+    width: 100%;
+    height: auto;
+} */
 
 /* contact */
 

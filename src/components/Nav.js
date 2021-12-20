@@ -4,6 +4,11 @@ const Nav = ({currentPage, handlePageChange}) => {
     return (
         <nav>
         <ul className="nav nav-tabs">
+            <a href="#" class ="toggle-button">
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+            </a>
             <li className="nav-item">
                 <a 
                 href="#home" 
@@ -28,6 +33,7 @@ const Nav = ({currentPage, handlePageChange}) => {
                 </a>
             </li>
         </ul>
+    
         </nav>
     )
 }
