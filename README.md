@@ -1,7 +1,7 @@
 # React Portfolio   
   
   
-  ![screenshot](screenshot.png)
+  ![Screenshot of website](screenshot.PNG)
 
   ## Description
   Draft rendering of my portfolio using React, frontend only. Components are meant to dynamically create the pages. Projects will be updated to show newer projects and / or my best projects moving forward. Styling is in draft. Images currently link to github deployed page of my first portfolio draft. 
